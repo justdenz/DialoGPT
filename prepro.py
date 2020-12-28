@@ -143,7 +143,7 @@ def _make_feature(id_, sents, ws, eos):
 
 
 def main(args):
-    toker = GPT2Tokenizer.from_pretrained('gpt2')
+    toker = GPT2Tokenizer.from_pretrained('jcblaise/gpt2-tagalog')
     attrs = []
     if args.reverse:
         attrs.append('reverse')
