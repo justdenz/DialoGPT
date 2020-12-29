@@ -26,10 +26,9 @@ LSP_MODEL_URL = {
 
 # GPT model could be downloaded from huggingface repo
 GPT2_PRETRAINED_MODEL_ARCHIVE_MAP = {
-    "small": "https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch_model.bin",
+    "small": "https://s3.us-east-2.amazonaws.com/blaisecruz.com/gpt-2/gpt2-tagalog/pytorch_model.bin",
     "medium": "https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-medium-pytorch_model.bin",
     "large": "https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-large-pytorch_model.bin",
-    "tagalog_small": "https://s3.us-east-2.amazonaws.com/blaisecruz.com/gpt-2/gpt2-tagalog/pytorch_model.bin"
 }
 
 CONFIG_FILE = {
